@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>/* CSS */</style>
+<body>
+<script src="d3.v3.js"></script>
+<script>/* JavaScript */
+
+//select the body element
+var body = d3.select("body");
+
+// add h1 element
+var h1 = body.append("h1");
+h1.text("Prostate Cancer Data");
+
+var data = [
+  {name: "Alice", x: 10.0, y: 9.14},
+  {name:   "Bob", x:  8.0, y: 8.14},
+  {name: "Carol", x: 13.0, y: 8.74},
+  {name:  "Dave", x:  9.0, y: 8.77},
+  {name: "Edith", x: 11.0, y: 9.26}
+];
+
+
+
+function key(d) { return d.name; }
+
+var circle = svg.selectAll("circle")
+    .data(data, key)
+    .attr("cx", x)
+    .attr("cy", y)
+    .attr("r", 2.5);
+
+
+
+</script>
+

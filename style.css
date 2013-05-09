@@ -1,0 +1,86 @@
+html {
+  min-width: 1040px;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  margin: 1em auto 4em auto;
+  position: relative;
+  width: 960px;
+}
+
+h1 {
+  font-size: 62px;
+  font-weight: 300;
+  letter-spacing: -2px;
+  margin: .3em 0 .1em 0;
+}
+
+div h1 {
+  position: inherit;
+  
+	background: #ccd4dd; //#F4D6BC;
+	color: #294052;
+}
+
+.slider-container {
+	width: 245px;
+	margin: 10px 30px;
+	position: relative;
+	margin-left: 400px;
+	float: right;
+	text-align: right;
+}
+.all-sliders {
+	float: right
+	position: right;
+	margin-bottom:-400px;
+	text-align: right;
+}
+
+.label {
+	margin: 20px;
+	color: #447294;
+}
+
+.background {
+  fill: #fff;
+  stroke: #aaa;
+  stroke-width: 1.5px;
+  pointer-events: none;
+}
+
+.names{
+ font-styles: italic;
+ color: black;
+
+
+}
+#states {
+  fill: #ccd4dd;
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.highlight {
+  fill:  #8BD1E8;     // #8FBCDB;
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+
+#states .active {
+  fill:  #8BD1E8;  
+}
+
+#circles {
+  fill: #5CB8E6;
+  fill-opacity: .8;
+  stroke: #fff;
+}
+#namesonmap {
+
+font-size: 8px;
+stroke: #A3C2C2;
+stroke-width: 0.9px;
+}
