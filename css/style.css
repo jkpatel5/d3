@@ -43,7 +43,6 @@ div h1 {
 	color: #447294;
 }
 
-//background of map container 
 .background {
   fill: #fff;
   stroke: #aaa;
@@ -63,26 +62,23 @@ div h1 {
   stroke-width: 1.5px;
 }
 
-//when mouse over the state 
 .highlight {
   fill:  #8BD1E8;     // #8FBCDB;
   stroke: #fff;
   stroke-width: 1.5px;
 }
 
-//states color
 
 #states .active {
   fill:  #8BD1E8;  
 }
 
-//circles on the map 
 #circles {
   fill: #5CB8E6;
   fill-opacity: .8;
   stroke: #fff;
 }
-//color of the font on name of the state
+
 #namesonmap {
 
 font-size: 8px;
